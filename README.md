@@ -1,6 +1,23 @@
 ```
 # web-learning
 Web前端HTML学习练习仓库，记录学习demo与笔记
+## 📖 项目简介
+……
+## 📂 目录结构
+```
+
+web-learning
+├── demo1_Study ……
+
+```
+
+> 最顶部那三个反引号多余！
+> `# web-learning` 是markdown标题，**不要包在```里面**，只有【目录树形】和【代码命令】才需要用```包裹。
+
+## ✅ 直接复制下面这份**完全正确完整版**，覆盖你的README.md全部内容
+```markdown
+# web-learning
+Web前端HTML学习练习仓库，记录学习demo与笔记
 
 ## 📖 项目简介
 本仓库用于存放个人前端学习练习代码，主要以HTML基础练习为主。
@@ -52,3 +69,4 @@ web-learning
 1. 克隆仓库到本地
 ```bash
 git clone https://github.com/Ko-369/web-learning.git
+```
