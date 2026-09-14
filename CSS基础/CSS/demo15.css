@@ -1,0 +1,21 @@
+div {
+    text-decoration: underline;
+}
+
+/* 删除线不常用 */
+
+p {
+    text-decoration: line-through;
+}
+
+/* 上划线不常用 */
+
+h2 {
+    text-decoration: overline;
+}
+
+/* none时删除下划线，常用在超链接 */
+
+a {
+    text-decoration: none;
+}

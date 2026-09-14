@@ -30,3 +30,10 @@ id选择器：
             3.注意点：
                     1.开发中使用极少，只会在极特殊情况下才会用到
                     2.通常用于去除标签默认的内外边距（margin和padding）
+
+
+
+
+水平居中方法总结 text-align:center
+
+text-align:center可以让 文本 span标签 input标签 img标签 居中对齐，再给这些标签加居中效果时， text-align:center 要给其父元素设置

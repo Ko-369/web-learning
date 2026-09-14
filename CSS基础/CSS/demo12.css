@@ -1,0 +1,8 @@
+/* font 简写方式（复合属性）：  "font：style weight size 字体;" */
+
+/* 如果要同时设置单独和连写形式，要把单独的样式写在连写的下面 */
+
+div {
+    font: italic 700 66px 宋体;
+    font-style: normal;
+}

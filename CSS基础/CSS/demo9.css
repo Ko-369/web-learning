@@ -1,0 +1,9 @@
+div {
+    /* font-style控制字体倾斜，取值italic字体会倾斜 */
+    font-style: italic;
+}
+
+em {
+    /* font-style控制字体倾斜，取值normal字体会倾斜 */
+    font-style: normal;
+}

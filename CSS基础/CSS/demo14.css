@@ -1,0 +1,16 @@
+h1 {
+    /* tetxt-align默认属性值是left */
+    text-align:center ;
+}
+
+h2 {
+    text-align:center ;
+}
+
+p {
+    text-align:center ;
+}
+
+body {
+    text-align:center ;
+}
