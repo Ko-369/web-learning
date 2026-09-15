@@ -38,59 +38,109 @@ Web 前端 HTML 学习练习仓库，用于记录学习 Demo 与学习笔记。
 
 ```text
 web-learning/
-├── demo1_Study/                     # HTML 基础入门练习
-│   └── demo1.html
+├── HTML/
 │
-├── demo2_招聘/                      # 招聘页面案例
-│   ├── 腾云大厦.png
-│   └── demo2.html
+│   ├── demo1_Study/
+│   │   └── demo1.html
+│   │
+│   ├── demo2_招聘/
+│   │   ├── 腾云大厦.png
+│   │   └── demo2.html
+│   │
+│   ├── demo3_跳转/
+│   │   ├── media/
+│   │   │   ├── 千与千寻.mp3
+│   │   │   └── 有一种悲伤.mp4
+│   │   ├── index.html
+│   │   ├── one.html
+│   │   └── two.html
+│   │
+│   ├── demo4_列表/
+│   │   ├── 无序列表.html
+│   │   ├── 有序列表.html
+│   │   ├── 自定义列表.html
+│   │   └── study.md
+│   │
+│   ├── demo5_表格/
+│   │   ├── 表格-结构标签.html
+│   │   ├── 表格.html
+│   │   ├── 表格标题和表头.html
+│   │   ├── 合并单元格.html
+│   │   └── study.md
+│   │
+│   ├── demo6_表单/
+│   │   ├── 按钮_input.html
+│   │   ├── 表单_单选框.html
+│   │   ├── 表单_input.html
+│   │   ├── 表单_文本域标签.html
+│   │   ├── 表单_下拉菜单.html
+│   │   ├── 表单-label.html
+│   │   ├── 表单占位符.html
+│   │   ├── 上传多个文件.html
+│   │   ├── button按钮标签.html
+│   │   └── study.md
+│   │
+│   ├── demo7_语义化标签/
+│   │   ├── div.html
+│   │   ├── phone.html
+│   │   └── study.md
+│   │
+│   ├── demo8_字符实体/
+│   │   └── 字符实体.html
+│   │
+│   └── demo9_综合案例/
+│       ├── 表单.html
+│       └── 学生信息表.html
 │
-├── demo3_跳转/                      # 超链接、页面跳转及媒体资源练习
-│   ├── media/
-│   │   ├── 千与千寻.mp3
-│   │   └── 有一种悲伤.mp4
-│   ├── index.html
-│   ├── one.html
-│   └── two.html
+├── CSS/
 │
-├── demo4_列表/                      # HTML 列表练习
-│   ├── 无序列表.html
-│   ├── 有序列表.html
-│   ├── 自定义列表.html
-│   └── study.md
+│   └── CSS基础/
+│       │
+│       ├── CSS/
+│       │   ├── demo2.css
+│       │   ├── demo3.css
+│       │   ├── demo4.css
+│       │   ├── demo5.css
+│       │   ├── demo6.css
+│       │   ├── demo7.css
+│       │   ├── demo8.css
+│       │   ├── demo9.css
+│       │   ├── demo10.css
+│       │   ├── demo11.css
+│       │   ├── demo12.css
+│       │   ├── demo13.css
+│       │   ├── demo14.css
+│       │   ├── demo15.css
+│       │   ├── demo16.css
+│       │   ├── demo17.css
+│       │   └── demo18.css
+│       │
+│       ├── HTML/
+│       │   ├── 浪淘沙-北戴河.png
+│       │   ├── 腾云大厦.png
+│       │   ├── 小米商品.png
+│       │   ├── demo1-体验css.html
+│       │   ├── demo2-css引入方式.html
+│       │   ├── demo3-选择器-标签.html
+│       │   ├── demo4-选择器-类选择器.html
+│       │   ├── demo5-选择器-id.html
+│       │   ├── demo6-选择器-通配符.html
+│       │   ├── demo7-字号.html
+│       │   ├── demo8-文字粗细.html
+│       │   ├── demo9-字体倾斜.html
+│       │   ├── demo10-字体样式.html
+│       │   ├── demo11-样式层叠问题.html
+│       │   ├── demo12-font属性.html
+│       │   ├── demo13-文本缩进.html
+│       │   ├── demo14-文本水平对齐.html
+│       │   ├── demo15-文本修饰.html
+│       │   ├── demo16-行高.html
+│       │   ├── demo17-综合案例1.html
+│       │   └── demo18-综合案例2.html
+│       │
+│       └── study.md
 │
-├── demo5_表格/                      # HTML 表格练习
-│   ├── 表格-结构标签.html
-│   ├── 表格.html
-│   ├── 表格标题和表头.html
-│   ├── 合并单元格.html
-│   └── study.md
-│
-├── demo6_表单/                      # HTML 表单及表单控件练习
-│   ├── 按钮_input.html
-│   ├── 表单_单选框.html
-│   ├── 表单_input.html
-│   ├── 表单_文本域标签.html
-│   ├── 表单_下拉菜单.html
-│   ├── 表单-label.html
-│   ├── 表单占位符.html
-│   ├── 上传多个文件.html
-│   ├── button按钮标签.html
-│   └── study.md
-│
-├── demo7_语义化标签/                # HTML 标签及页面结构练习
-│   ├── div.html
-│   ├── phone.html
-│   └── study.md
-│
-├── demo8_字符实体/                  # HTML 字符实体练习
-│   └── 字符实体.html
-│
-├── demo9_综合案例/                  # HTML 综合案例
-│   ├── 表单.html
-│   └── 学生信息表.html
-│
-└── README.md                        # 仓库说明文档
+└── README.md
 ```
 
 ## 🗂️ 章节说明
@@ -178,7 +228,7 @@ study.md
 - [x] HTML 表单
 - [x] HTML 字符实体
 - [x] HTML 综合案例
-- [ ] CSS 基础
+- [x] CSS 基础
 - [ ] CSS 盒子模型
 - [ ] Flex 布局
 - [ ] Grid 布局
