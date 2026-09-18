@@ -1,0 +1,9 @@
+div {
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    background-image: url(./images/FZD.jpg);
+    /* background-repeat: no-repeat; */
+    background-repeat: repeat-y;
+
+}

@@ -1,0 +1,12 @@
+div {
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    background-image: url(./images/FZD.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    /* background-position: center; */
+    background-position: -50 50;
+    /* 正数：向右下移动；负数向左上移动 */
+    /* 注意：背景色只显示在盒子里面 */
+}
