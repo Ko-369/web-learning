@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .header {
+
+            margin: 0 auto;
+
+            width: 1226px;
+            height: 100px;
+            background-color: pink;
+            
+        }
+
+        .content {
+            margin: 0 auto;
+            
+            width: 1226px;
+            height: 460px;
+            background-color:green;
+
+        }
+
+        .left {
+            float: left;
+
+            width: 234px;
+            height: 460px;
+            background-color: #ffa500;
+
+            
+        }
+
+        .right {
+            float: left;
+
+            width: 992px;
+            height: 460px;
+            background-color: #87ceeb;   
+        }
+
+        /* 按照css书写顺序写,浏览器的执行效率会更高 */
+        /* css书写顺序:
+            1.浮动 / display
+            2.盒子模型:margin borderpadding 宽度高度背景色
+            3.文字样式
+        */
+    </style>
+
+</head>
+<body>
+    <!-- 通栏的盒子:宽度和浏览器一样大 -->
+
+    <div class="top"></div>
+    <div class="header">头部</div>
+    <div class="content">
+        <div class="left">left</div>
+        <div class="right">right</div>
+    </div>
+</body>
+</html>
